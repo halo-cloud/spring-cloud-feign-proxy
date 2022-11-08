@@ -5,6 +5,7 @@ import com.github.leecho.spring.feign.sample.service.DemoService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.ArrayList;
@@ -15,7 +16,6 @@ import java.util.List;
  * @create 2018/9/21 14:00
  **/
 @Slf4j
-@Primary
 @Service
 public class DemoServiceImpl implements DemoService {
 
